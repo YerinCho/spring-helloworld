@@ -1,9 +1,11 @@
-package wooteco.helloworld;
+package wooteco.helloworld.core;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
+
+@Component
 public class SpringCoreService {
     private String name;
 
